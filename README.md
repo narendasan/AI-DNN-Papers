@@ -1,6 +1,8 @@
 # AI-DNN-Papers
 Papers on AI and DNNs
 
+http://luthuli.cs.uiuc.edu/~daf/courses/LearningCourse17/learning-book-Mar-17-all-small.pdf
+
 https://arxiv.org/pdf/1703.07511.pdf
 
 https://arxiv.org/pdf/1703.06870.pdf
