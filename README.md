@@ -39,3 +39,5 @@ https://openai.com/blog/universe/
 http://www.scholarpedia.org/article/Neuroevolution
 
 https://blog.openai.com/evolution-strategies/
+
+http://arxiv-sanity.com/
