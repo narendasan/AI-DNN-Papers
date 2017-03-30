@@ -33,6 +33,16 @@ https://arxiv.org/pdf/1606.03498.pdf
 
 https://arxiv.org/pdf/1703.03864.pdf
 
+https://openreview.net/forum?id=BJ0Ee8cxx
+
+https://openreview.net/forum?id=HkLXCE9lx
+
+https://openreview.net/forum?id=SJAr0QFxe
+
+https://openreview.net/forum?id=rJRhzzKxl
+
+https://openreview.net/pdf?id=ByldLrqlx
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
