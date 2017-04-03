@@ -43,6 +43,8 @@ https://openreview.net/forum?id=rJRhzzKxl
 
 https://openreview.net/pdf?id=ByldLrqlx
 
+http://www.chongyangma.com/publications/ld/2017_ld_preprint.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
