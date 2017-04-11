@@ -45,6 +45,16 @@ https://openreview.net/pdf?id=ByldLrqlx
 
 http://www.chongyangma.com/publications/ld/2017_ld_preprint.pdf
 
+https://arxiv.org/pdf/1704.02399.pdf
+
+https://arxiv.org/pdf/1703.10593.pdf
+
+https://arxiv.org/pdf/1703.05192.pdf
+
+https://papers.nips.cc/paper/3311-hippocampal-contributions-to-control-the-third-way.pdf
+
+https://arxiv.org/pdf/1605.06065.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
