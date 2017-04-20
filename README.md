@@ -63,3 +63,5 @@ http://www.scholarpedia.org/article/Neuroevolution
 https://blog.openai.com/evolution-strategies/
 
 http://arxiv-sanity.com/
+
+https://github.com/hindupuravinash/the-gan-zoo
