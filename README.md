@@ -55,6 +55,8 @@ https://papers.nips.cc/paper/3311-hippocampal-contributions-to-control-the-third
 
 https://arxiv.org/pdf/1605.06065.pdf
 
+https://arxiv.org/pdf/1704.05519.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
