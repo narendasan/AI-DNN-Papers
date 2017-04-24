@@ -56,6 +56,18 @@ Papers on AI and DNNs
 
 - [ ] https://arxiv.org/pdf/1704.05519.pdf
 
+- [ ] [Deep Learning Survey] (https://www.nature.com/articles/nature14539.epdf?referrer_access_token=K4awZz78b5Yn2_AoPV_4Y9RgN0jAjWel9jnR3ZoTv0PU8PImtLRceRBJ32CtadUBVOwHuxbf2QgphMCsA6eTOw64kccq9ihWSKdxZpGPn2fn3B_8bxaYh0svGFqgRLgaiyW6CBFAb3Fpm6GbL8a_TtQQDWKuhD1XKh_wxLReRpGbR_NdccoaiKP5xvzbV-x7b_7Y64ZSpqG6kmfwS6Q1rw%3D%3D&tracking_referrer=www.nature.com)
+
+- [ ] https://arxiv.org/pdf/1409.3215.pdf
+
+- [ ] https://arxiv.org/pdf/1502.03167.pdf
+
+- [ ] https://arxiv.org/pdf/1502.01852v1.pdf
+
+- [ ] https://arxiv.org/pdf/1312.6229v4.pdf
+
+- [ ] http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
