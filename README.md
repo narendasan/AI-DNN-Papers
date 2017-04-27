@@ -68,6 +68,8 @@ Papers on AI and DNNs
 
 - [ ] http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf
 
+- [ ] https://arxiv.org/pdf/1610.05755.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
