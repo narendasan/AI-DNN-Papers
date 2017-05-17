@@ -74,6 +74,8 @@ Papers on AI and DNNs
 
 - [ ] https://arxiv.org/pdf/1705.01389.pdf
 
+- [ ] https://arxiv.org/abs/1703.07326
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
