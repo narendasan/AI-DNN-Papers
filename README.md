@@ -77,7 +77,7 @@ Papers on AI and DNNs
 
 - [x] https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?
 
-  - Presents an approach using linear scaling of learning rates based on batch size and a "warmup" period at the beginning of training using a small learning rate to avoid initial optimization difficulties thereby allowing the use of large batch sizes in training, leading to equivilent accuracy in a fraction of the time for ImageNet Classification with ResNet  
+  - Presents an approach using linear scaling of learning rates based on batch size and a "warmup" period at the beginning of training using a small learning rate to avoid initial optimization difficulties thereby allowing the use of large batch sizes in training, leading to equivilent generalization accuracy in a fraction of the time for ImageNet Classification with ResNet  
 
 ### Sites and Links
 https://openai.com/blog/universe/
