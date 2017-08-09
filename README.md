@@ -77,7 +77,14 @@ Papers on AI and DNNs
 
 - [x] https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?
 
-  - Presents an approach using linear scaling of learning rates based on batch size (**RULE:** When minibatch size is scaled by _k_, scale the learning rate by _k_ where k is the number of nodes in the cluster) and a "warmup" period at the beginning of training using a low learning rate to avoid initial optimization difficulties thereby allowing the use of large batch sizes in training, leading to equivilent generalization accuracy as well as mathcing training curves in a fraction of the time for ImageNet Classification with ResNet  
+  - Presents an approach using linear scaling of learning rates based on batch size (**RULE:** When minibatch size is scaled by _k_, scale the learning rate by _k_ where k is the number of nodes in the cluster) and a "warmup" period at the beginning of training using a low learning rate to avoid initial optimization difficulties thereby allowing the use of large batch sizes in training, leading to equivilent generalization accuracy as well as matching training curves in a fraction of the time for ImageNet Classification with ResNet  
+- [ ] https://arxiv.org/pdf/1704.00051.pdf
+
+- [ ] https://arxiv.org/pdf/1705.07204.pdf
+
+- [ ] https://arxiv.org/pdf/1707.06728.pdf
+
+- [ ] https://arxiv.org/pdf/1704.01155.pdf
 
 ### Sites and Links
 https://openai.com/blog/universe/
