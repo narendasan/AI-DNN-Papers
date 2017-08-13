@@ -88,7 +88,15 @@ Papers on AI and DNNs
 
 - [ ] https://arxiv.org/pdf/1703.06211v3
 
-- [ ] https://bigredt.github.io/2017/07/09/reason/
+  - Introduces the concepts of Deformable Convolutions and Deformable Region of Interest (RoI) Pooling. Both can be dropped in place of standard components in current CNNs, and can be trained with standard back propogation. Standard convolutions are fixed geometrically and so require large ammounts of training or complex model parameters to learn robust representations. Other fixed techniques like SIFT and sliding window rely on tranformation invariant features. Convolution's modeling capablity comes from large amounts of data augmentation and additional hand crafted components like max pooling to address small translation invariance. CNNs are limited to large transformations due to the fixed geometric structure of the modules e.g. Max Pooling reduces the resolution by a fixed ammount or RoI createsfixed bins. The paper introduces a new set of learned parameters for convolutional layers that correspond to offsets from the regular grid sampling locations. The offsets are learned by the feature maps in the preivious layers, via additional convolution layers. Deformable RoI Pooling addes an offset to the normal bin partition of the preivous pooling layer. These offsets are also learned. Deformable Convolution has 2 steps. 1. samples using the regular grid augmented with the trained offsets over the input feature map 2. sampled values are summed and weighted. To learn the offsets, gradients are backproped. Deformable RoI takes a input feature map and a dRoI of size _w_x_h_ and a top left corner and splits the RoI into _k_x_k_ bins each offset from the RoI bin position by a learned offset. The output feature map is the collection of bins created by the dRoI. The offsets are learned via a fully connected layer which applies the offsets on a standard RoI.  
+  
+  - Terms to Look into:
+    - Bilinear Interpolation
+    - Spatial Transform Networks
+    - Active Convolution
+    - Effective Receptive Field
+    - Deformable Part Models 
+    - Artous Convolution -> Increase filter stride, sparsifies sampling  
 
 ### Sites and Links
 https://openai.com/blog/universe/
@@ -100,5 +108,7 @@ https://blog.openai.com/evolution-strategies/
 http://arxiv-sanity.com/
 
 https://github.com/hindupuravinash/the-gan-zoo
+
+https://bigredt.github.io/2017/07/09/reason/
 
 http://luthuli.cs.uiuc.edu/~daf/courses/LearningCourse17/learning-book-Mar-17-all-small.pdf
