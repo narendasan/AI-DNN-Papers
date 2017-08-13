@@ -88,6 +88,8 @@ Papers on AI and DNNs
 
 - [ ] https://arxiv.org/pdf/1703.06211v3
 
+- [ ] https://bigredt.github.io/2017/07/09/reason/
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
