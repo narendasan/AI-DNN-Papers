@@ -97,6 +97,8 @@ Papers on AI and DNNs
     - Effective Receptive Field
     - Deformable Part Models 
     - Artous Convolution -> Increase filter stride, sparsifies sampling  
+    
+- [ ] https://arxiv.org/abs/1612.01105
 
 ### Sites and Links
 https://openai.com/blog/universe/
