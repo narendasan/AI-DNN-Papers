@@ -98,7 +98,9 @@ Papers on AI and DNNs
     - Deformable Part Models 
     - Artous Convolution -> Increase filter stride, sparsifies sampling  
     
-- [ ] https://arxiv.org/abs/1612.01105
+- [ ] https://arxiv.org/pdf/1612.01105
+
+- [ ] https://arxiv.org/pdf/1611.09842
 
 ### Sites and Links
 https://openai.com/blog/universe/
