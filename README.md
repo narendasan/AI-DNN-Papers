@@ -109,6 +109,8 @@ Does This by learning the key characteristics of a set X and a set Y and then
 tries to develop a translation function to apply the key characteristics. Trains
 the GAN using a cycle consistancy loss (f(g(X)) -> X) and an adversarial loss.
 
+- [ ] https://arxiv.org/pdf/1705.07115.pdf
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
