@@ -111,6 +111,8 @@ the GAN using a cycle consistancy loss (f(g(X)) -> X) and an adversarial loss.
 
 - [ ] https://arxiv.org/pdf/1705.07115.pdf
 
+   - Presents an approach to multitask learning leveraging the homoscedastic unceartainty of output data to learn the mixing ratios of the various objectives in contrast to the standard hand tuning of mixing ratios. With the mixing ratios being learned, it could now be feasible to increase the number of tasks a model can learn. The paper shows a model using this approach trained on per-pixel depth regression, and semantic and instance segmantation that outpreforms single task models.   
+
 ### Sites and Links
 https://openai.com/blog/universe/
 
