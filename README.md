@@ -116,6 +116,11 @@ the GAN using a cycle consistancy loss (f(g(X)) -> X) and an adversarial loss.
 - [ ] https://www.frontiersin.org/articles/10.3389/frobt.2017.00025/full
 
 - [ ] https://arxiv.org/pdf/1602.02658.pdf
+
+- [X] https://arxiv.org/pdf/1707.01067.pdf
+  
+  - ELF is a framework for training RL agents on games. It allows researchers to define their own games or wrap existing ones and access them through a python interface. It supports multiple executions of a game and/or multiple agents and batched game states. The paper also does some experiements on the traning of RL agents on games similar to starcraft using ELF and find that with ELF a computer with 6 cores and a GPU and a a day one can train a RL agent that can beat a rule based AI 70% of the time. They show that **curriculum training** is important in training agents. They use the strategy of letting the rule-based AI play *k* ticks where *k~Uniform(0,1000)* then they switch to the agent. This serves to reduce the difficulty of the game initally and allows the state to vary more. Gradually the size of *k* is reduced until the agent is standalone. Finally, the examine **Monte Carlo Tree Search** where off the current game state, new potential game states are explored via self play, focusing on paths that give the agent the highest win rate. They show that MCTS can get a similar win percentage to RL agents but to do so it must have the whole game state (i.e. no fog of ware), where as RL does not, it also needs knowledge of the game mechanics and even then it is still slower. 
+  
 ### Sites and Links
 https://openai.com/blog/universe/
 
