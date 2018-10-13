@@ -129,6 +129,10 @@ the GAN using a cycle consistancy loss (f(g(X)) -> X) and an adversarial loss.
 
   - Tackles the problem of domain shift for DNNs, (low level feature extractors being so finely tuned to one set of image processing steps, lighting etc. cause the network to perform worse in domains that do not conform to those constraints). Classical method is fine tuning, using labeled training data from the target domain to retrain the low level feature extractors. ADDA is a unsupervised technique that leverages the GAN construction to fine tune a network. Uses a discriminator to differentiate between frozen network trained on the source domain with lots of data and a copy (unconnected) of the source network shown unlabeled data from the target domain when fed the logits output of each network. The idea is the discriminator loss will nudge the target network to be able to mimic the source networks domain of outputs to the point where the discriminator cannot tell the difference between the two networks. Then using the classifier of the source network, in theory (and in the experiments shown) you can preform accurate classification on the target domain. 
   
+- [X] https://arxiv.org/pdf/1809.03625.pdf
+  - Modifies ADDA's discriminator to also try to perform the task with the output from the source and target encoders, as a sort of more strict discriminative loss. 
+  
+  
 ### Sites and Links
 https://openai.com/blog/universe/
 
