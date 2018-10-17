@@ -132,6 +132,8 @@ the GAN using a cycle consistancy loss (f(g(X)) -> X) and an adversarial loss.
 - [X] https://arxiv.org/pdf/1809.03625.pdf
   - Modifies ADDA's discriminator to also try to perform the task with the output from the source and target encoders, as a sort of more strict discriminative loss. 
   
+- [x] https://arxiv.org/abs/1810.06758
+  - Applies Rejection sampling to the training of generators in GANs, which allows one to sample from a hard to sample target distribution by sampling a close easy to sample distribution and keeping those samples if they pass a threshold. Shows that in the ideal case (as in the theoretical purposed GAN formulation), you would be able to preform rejection sampling tractibly using the discriminator to improve the notion of the true target distribution. Then goes on to purpose a general form of rejection sampling which works around the assumptions in the ideal case. Leads to SOTA inception score for SAGAN on ImageNet. 
 
 ### Sites and Links
 https://openai.com/blog/universe/
